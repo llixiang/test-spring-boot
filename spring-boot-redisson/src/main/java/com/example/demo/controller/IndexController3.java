@@ -6,6 +6,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -18,7 +19,7 @@ public class IndexController3 {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
-    @Autowired
+    @Resource
     private Redisson redisson;
 
     @RequestMapping("/deduct_stock3")
@@ -27,7 +28,7 @@ public class IndexController3 {
         try {
             //setnx(key,value)
             Boolean result = stringRedisTemplate.opsForValue().setIfAbsent(lockKey, "lxx");
-//           //设置超时时间
+//           //设置超时(过期时间)时间
             stringRedisTemplate.expire(lockKey, 10, TimeUnit.SECONDS);
 
 

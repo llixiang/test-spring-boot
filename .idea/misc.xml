@@ -5,6 +5,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-runner/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-java8/pom.xml" />
       </list>
     </option>
   </component>

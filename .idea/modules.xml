@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-java8/spring-boot-java8.iml" filepath="$PROJECT_DIR$/spring-boot-java8/spring-boot-java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatisplus/spring-boot-mybatisplus.iml" filepath="$PROJECT_DIR$/spring-boot-mybatisplus/spring-boot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redisson/spring-boot-redisson.iml" filepath="$PROJECT_DIR$/spring-boot-redisson/spring-boot-redisson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-runner/spring-boot-runner.iml" filepath="$PROJECT_DIR$/spring-boot-runner/spring-boot-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-schedule/spring-boot-schedule.iml" filepath="$PROJECT_DIR$/spring-boot-schedule/spring-boot-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/test.spring.boot.iml" filepath="$PROJECT_DIR$/test.spring.boot.iml" />
     </modules>
   </component>

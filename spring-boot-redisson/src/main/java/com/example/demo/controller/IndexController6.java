@@ -4,16 +4,15 @@ import org.redisson.Redisson;
 import org.redisson.api.RLock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.UUID;
+import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 /**
  * 解决超时问题，不同线程所需时间不同，（引入了）用到了redisson分布式锁
- * <p>
+ * * <p>
  * 三行代码：
  * RLock lock = redisson.getLock(lockKey); 获取锁
  * lock.tryLock(30, TimeUnit.SECONDS); 加锁时间
@@ -29,7 +28,7 @@ public class IndexController6 {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
-    @Autowired
+    @Resource
     private Redisson redisson;
 
 
