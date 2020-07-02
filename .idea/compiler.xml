@@ -12,12 +12,14 @@
         <module name="spring-boot-mybatisplus" />
         <module name="spring-boot-runner" />
         <module name="spring-boot-redisson" />
+        <module name="spring-boot-fasdfs" />
         <module name="spring-boot-elasticsearch" />
         <module name="spring-boot-schedule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-elasticsearch" target="1.8" />
+      <module name="spring-boot-fasdfs" target="1.8" />
       <module name="spring-boot-java8" target="1.8" />
       <module name="spring-boot-mybatisplus" target="1.8" />
       <module name="spring-boot-redisson" target="1.8" />
@@ -29,6 +31,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-elasticsearch" options="-parameters" />
+      <module name="spring-boot-fasdfs" options="-parameters" />
       <module name="spring-boot-java8" options="-parameters" />
       <module name="spring-boot-mybatisplus" options="-parameters" />
       <module name="spring-boot-redisson" options="-parameters" />
