@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-fasdfs/spring-boot-fasdfs.iml" filepath="$PROJECT_DIR$/spring-boot-fasdfs/spring-boot-fasdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-java8/spring-boot-java8.iml" filepath="$PROJECT_DIR$/spring-boot-java8/spring-boot-java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatisplus/spring-boot-mybatisplus.iml" filepath="$PROJECT_DIR$/spring-boot-mybatisplus/spring-boot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redisson/spring-boot-redisson.iml" filepath="$PROJECT_DIR$/spring-boot-redisson/spring-boot-redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-runner/spring-boot-runner.iml" filepath="$PROJECT_DIR$/spring-boot-runner/spring-boot-runner.iml" />

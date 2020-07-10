@@ -13,6 +13,7 @@ import lombok.Getter;
 @Getter
 public enum StatusCode implements IStatusCode {
 
+    SYSTEM_ERROR(1001, "系统出现错误[1001]", "系统未知错误"),
 
     /**
      * 操作成功

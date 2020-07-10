@@ -8,19 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-java8" />
+        <module name="spring-boot-kafka" />
         <module name="test.spring.boot" />
         <module name="spring-boot-mybatisplus" />
         <module name="spring-boot-runner" />
-        <module name="spring-boot-redisson" />
-        <module name="spring-boot-fasdfs" />
         <module name="spring-boot-elasticsearch" />
         <module name="spring-boot-schedule" />
+        <module name="spring-boot-redisson" />
+        <module name="spring-boot-fasdfs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-elasticsearch" target="1.8" />
       <module name="spring-boot-fasdfs" target="1.8" />
       <module name="spring-boot-java8" target="1.8" />
+      <module name="spring-boot-kafka" target="1.8" />
       <module name="spring-boot-mybatisplus" target="1.8" />
       <module name="spring-boot-redisson" target="1.8" />
       <module name="spring-boot-runner" target="1.8" />
@@ -33,6 +35,7 @@
       <module name="spring-boot-elasticsearch" options="-parameters" />
       <module name="spring-boot-fasdfs" options="-parameters" />
       <module name="spring-boot-java8" options="-parameters" />
+      <module name="spring-boot-kafka" options="-parameters" />
       <module name="spring-boot-mybatisplus" options="-parameters" />
       <module name="spring-boot-redisson" options="-parameters" />
       <module name="spring-boot-runner" options="-parameters" />

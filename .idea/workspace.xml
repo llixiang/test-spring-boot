@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47b58a61-17b9-42c9-9bd0-ccfe5961a8ab" name="Default Changelist" comment="feat: fastdfs">
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/apiparam/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/apiparam/ResponseGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/configbean/FastDfsConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/emums/ResponseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/resp/FastDfsUploadResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/statuscode/IStatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/statuscode/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/test/java/fast.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/test/java/springbootfastdfs/demo/DemoApplicationTests.java" afterDir="false" />
+    <list default="true" id="47b58a61-17b9-42c9-9bd0-ccfe5961a8ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/configbean/FastDfsConfigBeanImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/configbean/RouteConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/emums/PermitTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/params/resp/BannerListRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/params/resp/FastDfsUploadResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/params/resp/RecommendRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/utils/AbstractRouteUrlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/core/BannerListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/web/BannerListWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/springbootkafka/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/test/java/springbootkafka/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-redisson/target/classes/com/example/demo/controller/IndexController6.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-redisson/target/classes/com/example/demo/controller/IndexController6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fasdfs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fasdfs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/resp/FastDfsUploadResp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/statuscode/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-fasdfs/src/main/java/springbootfastdfs/demo/common/statuscode/StatusCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-fasdfs/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../斑马信用/common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -95,14 +102,6 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\git\hikcreate\Demo\springboot\test.spring.boot\spring-boot-redisson\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.demo.controller" />
-      <recent name="com.example.demo" />
-      <recent name="com.example.demo.model" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\git\hikcreate\Demo\springboot\test.spring.boot\spring-boot-fasdfs\src\test\java" />
       <recent name="E:\workspace\git\hikcreate\Demo\springboot\test.spring.boot\spring-boot-java8\src\main\java\springbootjava8\demo" />
@@ -110,8 +109,50 @@
       <recent name="E:\workspace\git\hikcreate\Demo\springboot\test.spring.boot\spring-boot-elasticsearch\src\main\resources" />
       <recent name="E:\workspace\git\hikcreate\Demo\springboot\test.spring.boot\spring-boot-redisson\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springbootfastdfs.demo.common.emums" />
+      <recent name="springbootfastdfs.demo.common.params.resp" />
+      <recent name="springbootfastdfs.demo.common.statuscode" />
+      <recent name="com.example.demo.controller" />
+      <recent name="com.example.demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\git\hikcreate\Demo\springboot\test.spring.boot\spring-boot-redisson\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DateTimeFormatterApiTest.format">
+  <component name="RunManager" selected="Application.BannerListService">
+    <configuration name="BannerListService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springbootfastdfs.demo.core.BannerListService" />
+      <module name="spring-boot-fasdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springbootfastdfs.demo.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BannerListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-fasdfs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BannerListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BannerListTest.bannerListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-fasdfs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BannerListTest" />
+      <option name="METHOD_NAME" value="bannerListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateTimeFormatterApiTest.format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-java8" />
       <extension name="coverage">
@@ -128,38 +169,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicatesTest.judgeNumberNegate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springbootjava8.demo.functional.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="springbootjava8.demo.functional.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="springbootjava8.demo.functional.interfaces.PredicatesTest" />
-      <option name="METHOD_NAME" value="judgeNumberNegate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicatesTest.judgeNumberTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springbootjava8.demo.functional.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="springbootjava8.demo.functional.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="springbootjava8.demo.functional.interfaces.PredicatesTest" />
-      <option name="METHOD_NAME" value="judgeNumberTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SuppliersTest.supplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-java8" />
       <extension name="coverage">
@@ -171,22 +180,6 @@
       <option name="PACKAGE_NAME" value="springbootjava8.demo.functional.interfaces" />
       <option name="MAIN_CLASS_NAME" value="springbootjava8.demo.functional.interfaces.SuppliersTest" />
       <option name="METHOD_NAME" value="supplier" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuppliersTest.suppliers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-java8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springbootjava8.demo.functional.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="springbootjava8.demo.functional.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="springbootjava8.demo.functional.interfaces.SuppliersTest" />
-      <option name="METHOD_NAME" value="suppliers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,6 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springbootkafka.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="test.spring.boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -242,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BannerListService" />
+        <item itemvalue="JUnit.BannerListTest.bannerListTest" />
+        <item itemvalue="JUnit.BannerListTest" />
         <item itemvalue="JUnit.DateTimeFormatterApiTest.format" />
         <item itemvalue="JUnit.SuppliersTest.supplier" />
-        <item itemvalue="JUnit.SuppliersTest.suppliers" />
-        <item itemvalue="JUnit.PredicatesTest.judgeNumberNegate" />
-        <item itemvalue="JUnit.PredicatesTest.judgeNumberTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,9 @@
       <workItem from="1593480350663" duration="6856000" />
       <workItem from="1593488701278" duration="19710000" />
       <workItem from="1593566647600" duration="16208000" />
-      <workItem from="1593653384038" duration="1589000" />
+      <workItem from="1593653384038" duration="2369000" />
+      <workItem from="1593739050545" duration="603000" />
+      <workItem from="1594364466549" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传代码">
       <created>1591264764912</created>
@@ -306,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593503063784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: fastdfs">
+      <created>1593668713883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593668713883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,10 +331,14 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Notifications" timestamp="1590978823504">
+    <state x="552" y="178" key="#Notifications" timestamp="1594370550214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1590978823504" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594370550214" />
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594370187557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594370187557" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593585832605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,58 +347,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1228" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593595428075" />
-    <state x="388" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593501100697">
+    <state x="388" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594367500477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="388" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593501100697" />
+    <state x="388" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594367500477" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593568992763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593568992763" />
-    <state x="553" y="203" key="CommitChangelistDialog2" timestamp="1593668680639">
+    <state x="208" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594366270803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="203" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593668680639" />
-    <state x="839" y="256" key="FileChooserDialogImpl" timestamp="1592891671676">
+    <state x="208" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594366270803" />
+    <state x="553" y="203" key="CommitChangelistDialog2" timestamp="1594371257631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="839" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592891671676" />
+    <state x="553" y="203" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594371257631" />
+    <state x="839" y="256" key="FileChooserDialogImpl" timestamp="1594365503045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="839" y="256" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594365503045" />
     <state width="192" height="252" key="Git.Branch.Popup" timestamp="1591264932726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="192" height="252" key="Git.Branch.Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591264932726" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1593600675442">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1594371209741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675442" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1593600675441">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594371209741" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1594371209741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675441" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1593600675441">
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594371209741" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1594371209741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675441" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1593600675441">
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594371209741" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1594371209741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675441" />
-    <state width="1877" height="294" key="GridCell.Tab.1.bottom" timestamp="1593600675442">
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594371209741" />
+    <state width="1877" height="294" key="GridCell.Tab.1.bottom" timestamp="1594371060912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675442" />
-    <state width="1877" height="294" key="GridCell.Tab.1.center" timestamp="1593600675442">
+    <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594371060912" />
+    <state width="1877" height="294" key="GridCell.Tab.1.center" timestamp="1594371060911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675442" />
-    <state width="1877" height="294" key="GridCell.Tab.1.left" timestamp="1593600675442">
+    <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594371060911" />
+    <state width="1877" height="294" key="GridCell.Tab.1.left" timestamp="1594371060911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675442" />
-    <state width="1877" height="294" key="GridCell.Tab.1.right" timestamp="1593600675442">
+    <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594371060911" />
+    <state width="1877" height="294" key="GridCell.Tab.1.right" timestamp="1594371060911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593600675442" />
+    <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594371060911" />
     <state width="1877" height="289" key="GridCell.Tab.2.bottom" timestamp="1593519895043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -410,10 +427,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="564" height="508" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591353181525" />
-    <state x="1028" y="240" key="Vcs.Push.Dialog.v2" timestamp="1593503216839">
+    <state x="1028" y="240" key="Vcs.Push.Dialog.v2" timestamp="1593668744352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1028" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593503216839" />
+    <state x="1028" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593668744352" />
     <state x="1122" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593480350247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -422,18 +439,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591264909488" />
-    <state x="636" y="258" width="786" height="590" key="find.popup" timestamp="1591348823037">
+    <state x="119" y="237" width="786" height="590" key="find.popup" timestamp="1594368883935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="258" width="786" height="590" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591348823037" />
-    <state x="669" y="381" key="new project wizard" timestamp="1593592423361">
+    <state x="119" y="237" width="786" height="590" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594368883935" />
+    <state x="669" y="381" key="new project wizard" timestamp="1593668876390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="381" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593592423361" />
-    <state x="1151" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1593575343146">
+    <state x="669" y="381" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593668876390" />
+    <state x="1151" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1594369809414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1151" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593575343146" />
+    <state x="1151" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594369809414" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

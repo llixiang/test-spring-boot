@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/spring-boot-runner/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-java8/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-fasdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-kafka/pom.xml" />
       </list>
     </option>
   </component>
