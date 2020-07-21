@@ -23,6 +23,7 @@ public class BannerListWeb {
 
     @GetMapping("/bannerList")
     public BannerListRes bannerList() {
-        return service.bannerList();
+        return BannerListService.bannerList();
     }
+
 }
